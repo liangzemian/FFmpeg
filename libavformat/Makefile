@@ -24,6 +24,7 @@ OBJS = allformats.o         \
        sdp.o                \
        url.o                \
        utils.o              \
+       webrtc_demuxer.o
 
 OBJS-$(HAVE_LIBC_MSVCRT)                 += file_open.o
 
